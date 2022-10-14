@@ -1,5 +1,5 @@
 pipeline{
-    agent { label any }
+    agent { label 'terraform' }
     stages{
         stage (" SCM ") {
             steps {
